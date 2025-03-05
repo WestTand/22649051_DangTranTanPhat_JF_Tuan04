@@ -1,0 +1,49 @@
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 100px;
+    height: 30px;
+    margin-right: 10px;
+}
+.search-bar input {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    width: 250px;
+}
+
+.nav-link {
+    display: flex;
+    /* Cach ca dong cua menu */
+    gap: 20px;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.recipe-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+}
+
+.recipe-box button {
+    background-color: #ff4d79;
+    color: white;
+    border: none;
+    padding: 3px 3px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}

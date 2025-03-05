@@ -1,0 +1,57 @@
+.page-link a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    position: relative;
+    left: -300px;
+    width: auto;
+}
+.namePro{
+    float: left;
+    font-size: xx-large;
+    padding: 30px 5px 30px 5px;
+}
+.title{
+    clear: both;
+    display: flex;
+    width: auto;
+
+}
+.title img{
+    width: auto;
+    height: auto;
+}
+
+.des span{
+    font-size: 14px;
+    text-align: center;
+    
+}
+.btn {
+    float: left;
+    padding: 30px 5px 30px 5px;
+    display: flex;
+    gap: 30px;
+
+}
+.btn >.sur{
+     background-color:  white;   
+     border: none;
+     cursor: pointer;
+     justify-content: center;
+     border-radius: 5%;
+     font-size: medium;
+     color: rgb(248, 161, 176);
+     font-weight: bold;
+}
+.btn >.share{
+    background-color: #ff4d79;
+    border: none;
+     cursor: pointer;
+     justify-content: center;
+     border-radius: 5%;
+     font-size: medium;
+     color: rgb(253, 253, 253);
+     font-weight: bold;
+}
+
